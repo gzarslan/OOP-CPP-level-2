@@ -1,0 +1,72 @@
+Script started on Mon 19 Oct 2020 09:05:36 PM EDT
+==157493== Memcheck, a memory error detector
+==157493== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==157493== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==157493== Command: ws
+==157493== 
+********************************************
+*                                          *
+* David Wright Mason Gilmour Waters Rogers *
+*                                          *
+* Extension: N/A                           *
+*                                          *
+********************************************
+
+************************
+*                      *
+* Fred Soley           *
+*                      *
+* Extension: 12345     *
+*                      *
+************************
+
+EMPTY NAMETAG!
+
+EMPTY NAMETAG!
+
+EMPTY NAMETAG!
+
+EMPTY NAMETAG!
+
+Please enter the name: John Doe
+Would you like to enter an extension? (Y)es/(N)o: n
+************************
+*                      *
+* John Doe             *
+*                      *
+* Extension: N/A       *
+*                      *
+************************
+Please enter the name: A very very long name that is more than 40 characters
+Would you like to enter an extension? (Y)es/(N)o: y
+Please enter a 5 digit phone extension: 76543
+********************************************
+*                                          *
+* A very very long name that is more than  *
+*                                          *
+* Extension: 76543                         *
+*                                          *
+********************************************
+Please enter the name: Jane Doe
+Would you like to enter an extension? (Y)es/(N)o: y
+Please enter a 5 digit phone extension: 1234
+Invalid value [10000<=value<=99999]: 123456
+Invalid value [10000<=value<=99999]: 76543
+************************
+*                      *
+* Jane Doe             *
+*                      *
+* Extension: 76543     *
+*                      *
+************************
+==157493== 
+==157493== HEAP SUMMARY:
+==157493==     in use at exit: 0 bytes in 0 blocks
+==157493==   total heap usage: 8 allocs, 8 frees, 72,842 bytes allocated
+==157493== 
+==157493== All heap blocks were freed -- no leaks are possible
+==157493== 
+==157493== For lists of detected and suppressed errors, rerun with: -s
+==157493== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Mon 19 Oct 2020 09:06:24 PM EDT
